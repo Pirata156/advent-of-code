@@ -83,6 +83,6 @@ I don’t expect many external contributions, but if you want to:
 
 ## 🔖 Acknowledgments
 
-* To the fine folks creators o’ Advent o’ Code.
+* To the fine folks creators o’ [Advent o’ Code](https://adventofcode.com/).
 * To me future self, for keepin’ on!
 * And to you, wanderin’ coder, for droppin’ anchor here.
