@@ -8,7 +8,7 @@ def handle_line(line: str) -> int:
     cursor = 0  # Current position in the line
     for i in range(12):
         # Search only in the substring from the current position up to the last index
-        # where enough digits remain to complete the remaining selections.
+        # where enough digits remain to complete the remaining selections
         remaining_picks = 11 - i
         end_index = len(line) if remaining_picks == 0 else -remaining_picks
         working_line = line[cursor:end_index]
@@ -28,7 +28,7 @@ def main():
     accum = 0  # Accumulator for results
     try:
         with open(filename, "r", encoding="utf-8") as f:
-            # Assuming file inputs are well-formed.
+            # Assuming file inputs are well-formed
             for line in f:
                 line = line.strip()
                 res = handle_line(line)

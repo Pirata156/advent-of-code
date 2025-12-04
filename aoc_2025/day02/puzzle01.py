@@ -14,7 +14,7 @@ def handle_element(pair: tuple[str, str]) -> int:
     range_max = int(s_max)  # Upper range limit
     half_string = s_min[:(len(s_min)//2)]
     if (len(s_min) % 2 == 0):
-        # If even length, take half directly
+        # If even length, take half directly.
         current_half = int(half_string)
     else:
         # If odd length, minimum valid half has to be one digit longer
@@ -39,7 +39,7 @@ def main():
     accum = 0  # Accumulator for results
     try:
         with open(filename, "r", encoding="utf-8") as f:
-            # Assuming file inputs are well-formed.
+            # Assuming file inputs are well-formed
             line = f.read().strip()
             list_pairs = [tuple(element.split('-')) for element in line.split(',')]
             for pair in list_pairs:

@@ -11,7 +11,7 @@ def handle_line(dial: int, rotation:str, distance: int):
             # Going left without crossing the boundary (0)
             jump -= rest_distance
         else:
-            # Crosses ore reaches the boundary (0): wrap around from 0 to 100
+            # Crosses or reaches the boundary (0): wrap around from 0 to 100
             jump += (100 - rest_distance)
             # Count extra click only if the boundary cross didn't start or end at the boundary (0)
             if (dial != 0 and jump != 100):

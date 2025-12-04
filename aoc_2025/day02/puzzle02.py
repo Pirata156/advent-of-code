@@ -25,7 +25,7 @@ def main():
     accum = 0  # Accumulator for results
     try:
         with open(filename, "r", encoding="utf-8") as f:
-            # Assuming file inputs are well-formed.
+            # Assuming file inputs are well-formed
             line = f.read().strip()
             list_pairs = [tuple(element.split('-')) for element in line.split(',')]
             for pair in list_pairs:

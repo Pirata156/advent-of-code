@@ -28,7 +28,7 @@ Pick a year, pick a day, and plunder the solutions as ye see fit.
 
 ### **2025**
 ```
-Day  1: [ ✔ ]   Day  2: [ ✔ ]   Day  3: [ ✔ ]   Day  4: [ ✖ ]
+Day  1: [ ✔ ]   Day  2: [ ✔ ]   Day  3: [ ✔ ]   Day  4: [ ✔ ]
 Day  5: [ ✖ ]   Day  6: [ ✖ ]   Day  7: [ ✖ ]   Day  8: [ ✖ ]
 Day  9: [ ✖ ]   Day 10: [ ✖ ]   Day 11: [ ✖ ]   Day 12: [ ✖ ]
 ```
@@ -83,6 +83,6 @@ I don’t expect many external contributions, but if you want to:
 
 ## 🔖 Acknowledgments
 
-* To the fine folks creators o’ Advent o’ Code.
+* To the fine folks creators o’ [Advent o’ Code](https://adventofcode.com/).
 * To me future self, for keepin’ on!
 * And to you, wanderin’ coder, for droppin’ anchor here.

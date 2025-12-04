@@ -19,7 +19,7 @@ def main():
     accum = 0  # Accumulator for results
     try:
         with open(filename, "r", encoding="utf-8") as f:
-            # Assuming file inputs are well-formed.
+            # Assuming file inputs are well-formed
             for line in f:
                 line = line.strip()
                 res = handle_line(line)
